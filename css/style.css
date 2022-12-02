@@ -1,0 +1,27 @@
+#admin-box{
+    background-color: rgb(19, 0, 128);
+
+}
+#admin-box img {width: 100px;
+}
+#btn{
+}
+input:focus{
+    background-color: black;
+    color: wheat;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+}
+input::placeholder {
+    color: aqua;
+}
+div#admin-box {
+    text-align: center;
+    width: 600px;
+    background-color: rgb(176, 224, 64);
+    margin: auto;
+    border-width: 10px;
+    border-style: double;
+    border-color:blue yellow rgb(235, 135, 190) red;
+}
